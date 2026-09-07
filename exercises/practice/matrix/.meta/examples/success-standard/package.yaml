@@ -1,4 +1,4 @@
-name: matrix
+name: matrix-slices
 
 dependencies:
   - base
@@ -13,6 +13,6 @@ tests:
     main: Tests.hs
     source-dirs: test
     dependencies:
-      - matrix
+      - matrix-slices
       - hspec
       - QuickCheck

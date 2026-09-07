@@ -1,4 +1,4 @@
-name: say
+name: say-number
 
 dependencies:
   - base
@@ -14,5 +14,5 @@ tests:
     main: Tests.hs
     source-dirs: test
     dependencies:
-      - say
+      - say-number
       - hspec

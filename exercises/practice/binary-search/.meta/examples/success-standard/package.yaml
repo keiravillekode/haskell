@@ -1,4 +1,4 @@
-name: binary-search
+name: binary-chop
 
 dependencies:
   - base
@@ -13,5 +13,5 @@ tests:
     main: Tests.hs
     source-dirs: test
     dependencies:
-      - binary-search
+      - binary-chop
       - hspec
